@@ -14,4 +14,4 @@ This workspace is a dedicated, long-term English learning project for **CQ**.
 4. **Automated Git Commit & Push Protocol**:
    - Every time files are modified or a learning session ends, you **MUST automatically commit and push to GitHub**.
    - No user review or confirmation is needed for commits/pushes (learner explicit request).
-   - Commit messages must be **precise, descriptive, and clean** (e.g. `feat(lesson): ...` or `docs(progress): ...`).
+   - Commit messages must be **in Chinese (中文)**, and be **precise, descriptive, and clean** (e.g. `docs(档案): ...` 或 `feat(语块): ...`).

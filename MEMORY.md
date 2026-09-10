@@ -37,7 +37,7 @@
    - 同时附带速查表 [00_verb_transformation_cheatsheet.md](file:///Users/changqi/lesson/grammar/00_verb_transformation_cheatsheet.md) 供其核对。
 9. **【自动化工程铁律】每次学习/修改后自动 Git Commit & Push（免 Review）**：
    - 这是学习过程记录，学员明确要求**无需发起 Review 确认，全自动直接提交并推送到 GitHub**。
-   - Commit message 必须准确、规范、具备可追溯性（如记录攻克了什么句型、语块或维护了什么文件）。
+   - **Commit 信息必须使用准确、清晰的中文描述**（例如：`feat(语块): 新增动词短语 get up` 或 `docs(规范): 约束 commit 信息使用中文`），具备高可读性与可追溯性。
 
 ---
 
