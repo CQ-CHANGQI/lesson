@@ -79,3 +79,6 @@
    - 课题 C：**扩充 M2 高频生活动词语块**——`get up` / `go to work` / `have lunch` / `come back` / `take a rest` 等。
 4. 遵循每轮只造 1~2 句、即练即学的微习惯节奏，并严格执行本文件第 2 节第 6、7、8 条出题铁律（**溯源讲解 + 乱序积木 + 只给原形**）。
 5. 📱 若学员在手机端/其他模型对话，提醒其使用 [CROSS_LLM_PROMPT.md](file:///Users/changqi/lesson/CROSS_LLM_PROMPT.md)（已于本次同步至最新进度）。
+6. ⏸️ **未完成现场（务必接续）**：**积木 C 已发出但学员未作答**——题目「他醒了，但是他没起床」，零件 `but / up / he / wake / up / get / not / he / do`（乱序，只给原形）。
+   - 答案：`He wakes up, but he does not get up.`
+   - 下次请先补做此题，或先讲 `wake up` vs `get up` 的**“两个 up”对比**（意识开启 vs 身体离床）再作答。
