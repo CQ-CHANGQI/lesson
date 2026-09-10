@@ -59,5 +59,6 @@
 ## 📖 新人/新 AI 接入顺序
 1. 先读 `MEMORY.md`（当前进度与教学铁律）
 2. 再读 `learner_profile.md`（学员画像与能力雷达）
-3. 需要出题时，严格遵循 `MEMORY.md` 第 2 节的 8 条准则
-4. 会话结束：更新 `MEMORY.md` + `progress_tracker.md` + `daily_logs/YYYY-MM-DD.md`
+3. 需要出题时，严格遵循 `MEMORY.md` 第 2 节的全部准则（**溯源讲解 + 乱序积木 + 只给原形**）
+4. 会话结束：更新 `MEMORY.md` + `progress_tracker.md` + `daily_logs/YYYY-MM-DD.md`，随后**自动 commit & push**（中文提交信息）
+5. **文件引用一律使用相对路径**，严禁 `file:///Users/...` 绝对路径（详见 `AGENTS.md` 规则 5）

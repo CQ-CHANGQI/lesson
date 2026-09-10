@@ -15,3 +15,12 @@ This workspace is a dedicated, long-term English learning project for **CQ**.
    - Every time files are modified or a learning session ends, you **MUST automatically commit and push to GitHub**.
    - No user review or confirmation is needed for commits/pushes (learner explicit request).
    - Commit messages must be **in Chinese (中文)**, and be **precise, descriptive, and clean** (e.g. `docs(档案): ...` 或 `feat(语块): ...`).
+5. **File Reference Convention (仓库内文件引用规范)**:
+   - **ALL internal cross-file references in Markdown MUST use RELATIVE paths.**
+   - **STRICTLY FORBIDDEN**: absolute paths of the form `file:///Users/<name>/lesson/...` or `/Users/...`.
+   - **Why**: absolute paths are bound to one machine's username and directory layout, so every link breaks the moment the repo is cloned to another computer. They are also **completely unclickable in GitHub's web renderer**.
+   - **How to write them** — compute the path **relative to the directory of the file you are editing**:
+     - same directory → `01_sentence_lego.md`
+     - subdirectory → `daily_logs/2026-09-10.md`
+     - parent directory → `../MEMORY.md`
+   - **Before finishing** any edit that adds, moves, or renames links, you **MUST verify that every link resolves** to an existing file.
