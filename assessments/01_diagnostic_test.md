@@ -8,7 +8,7 @@
 > 2. 摸底诊断已于 2026-09-10 通过**对话式诊断**完成，结论见 `learner_profile.md` 第 3 节（结论：免去传统试卷测试，直接从极简造句法切入）。
 >
 > **给未来 AI 的指令**：⚠️ **不要**把本文件当作待完成的测评发给学员，也**不要**据此出题。  
-> 学员的真实水平与进度请以 [MEMORY.md](file:///Users/changqi/lesson/MEMORY.md) 第 3 节与 [progress_tracker.md](file:///Users/changqi/lesson/progress_tracker.md) 为准。
+> 学员的真实水平与进度请以 [MEMORY.md](../MEMORY.md) 第 3 节与 [progress_tracker.md](../progress_tracker.md) 为准。
 
 ---
 

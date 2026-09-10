@@ -37,7 +37,7 @@
 8. **【学员硬核变形要求】仅提供原版动词（Base Forms Only）**：
    - 绝不提前把动词变形成 `likes`, `drinking` 喂给学员（严禁变相提示）。
    - **出题时一律给纯动词原形（如 `like`, `drink`, `watch`, `live`）**，强制由学员根据句子性质、人称、是否否定，**亲自决定是否加 `-s`、`-ing` 或请出 `does not`**！
-   - 同时附带速查表 [00_verb_transformation_cheatsheet.md](file:///Users/changqi/lesson/grammar/00_verb_transformation_cheatsheet.md) 供其核对。
+   - 同时附带速查表 [00_verb_transformation_cheatsheet.md](grammar/00_verb_transformation_cheatsheet.md) 供其核对。
 9. **【自动化工程铁律】每次学习/修改后自动 Git Commit & Push（免 Review）**：
    - 这是学习过程记录，学员明确要求**无需发起 Review 确认，全自动直接提交并推送到 GitHub**。
    - **Commit 信息必须使用准确、清晰的中文描述**（例如：`feat(语块): 新增动词短语 get up` 或 `docs(规范): 约束 commit 信息使用中文`），具备高可读性与可追溯性。
@@ -45,7 +45,7 @@
 ---
 
 ## 3. 当前项目进度与最新状态 (Current State & Progress)
-- **最后更新时间**：2026-09-10 17:55
+- **最后更新时间**：2026-09-10 17:54
 - **当前里程碑**：
   - [x] **M0: 摸底诊断并确立乐高极简造句法体系**（已完成）
   - [x] **M1: 梳理掌握英语两大门派 (状态句 vs 动作句) & 动词变身规律 (-ing) & 第三人称单数 (-s)** ✅ (2026-09-10 全面通关)
@@ -78,7 +78,7 @@
    - 课题 B：**自我介绍与他人介绍**——职业、居住地、爱好（`He works in...` / `She likes...`）。
    - 课题 C：**扩充 M2 高频生活动词语块**——`get up` / `go to work` / `have lunch` / `come back` / `take a rest` 等。
 4. 遵循每轮只造 1~2 句、即练即学的微习惯节奏，并严格执行本文件第 2 节第 6、7、8 条出题铁律（**溯源讲解 + 乱序积木 + 只给原形**）。
-5. 📱 若学员在手机端/其他模型对话，提醒其使用 [CROSS_LLM_PROMPT.md](file:///Users/changqi/lesson/CROSS_LLM_PROMPT.md)（已于本次同步至最新进度）。
+5. 📱 若学员在手机端/其他模型对话，提醒其使用 [CROSS_LLM_PROMPT.md](CROSS_LLM_PROMPT.md)（已于本次同步至最新进度）。
 6. ⏸️ **未完成现场（务必接续）**：**积木 C 已发出但学员未作答**——题目「他醒了，但是他没起床」，零件 `but / up / he / wake / up / get / not / he / do`（乱序，只给原形）。
    - 答案：`He wakes up, but he does not get up.`
    - 下次请先补做此题，或先讲 `wake up` vs `get up` 的**“两个 up”对比**（意识开启 vs 身体离床）再作答。

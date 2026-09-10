@@ -11,13 +11,13 @@
 
 | 编号 | 课题 | 一句话本质 |
 | :--- | :--- | :--- |
-| [01](file:///Users/changqi/lesson/grammar/01_sentence_lego.md) | 乐高积木法则 | 状态门派（`be`）vs 动作门派（实义动词），**一山不容二虎** |
-| [02](file:///Users/changqi/lesson/grammar/02_the_secret_of_ing.md) | `-ing` 动词变身术 | 动词穿外套降级成“动作型形容词”，进行时 = 状态门派的合法延伸 |
-| [03](file:///Users/changqi/lesson/grammar/03_third_person_and_s.md) | 第三人称 `-s` | 声学冗余 / 双重校验机制，防止听者漏听句首主语 |
-| [04](file:///Users/changqi/lesson/grammar/04_negation_and_helper_verbs.md) | 否定与助动词 | `be` 是主神自扛 `not`；平民动词请侍卫 `does`，**侍卫扛伤、平民还原** |
-| [05](file:///Users/changqi/lesson/grammar/05_questions_and_inversion.md) | 疑问与倒装 | Early Signal Protocol：第一个词就向听者发射提问预警 |
+| [01](01_sentence_lego.md) | 乐高积木法则 | 状态门派（`be`）vs 动作门派（实义动词），**一山不容二虎** |
+| [02](02_the_secret_of_ing.md) | `-ing` 动词变身术 | 动词穿外套降级成“动作型形容词”，进行时 = 状态门派的合法延伸 |
+| [03](03_third_person_and_s.md) | 第三人称 `-s` | 声学冗余 / 双重校验机制，防止听者漏听句首主语 |
+| [04](04_negation_and_helper_verbs.md) | 否定与助动词 | `be` 是主神自扛 `not`；平民动词请侍卫 `does`，**侍卫扛伤、平民还原** |
+| [05](05_questions_and_inversion.md) | 疑问与倒装 | Early Signal Protocol：第一个词就向听者发射提问预警 |
 
-📋 **配套武器库**：[00_verb_transformation_cheatsheet.md](file:///Users/changqi/lesson/grammar/00_verb_transformation_cheatsheet.md) —— 造句时随时查表，确认每个动词原形该如何变身。
+📋 **配套武器库**：[00_verb_transformation_cheatsheet.md](00_verb_transformation_cheatsheet.md) —— 造句时随时查表，确认每个动词原形该如何变身。
 
 ---
 

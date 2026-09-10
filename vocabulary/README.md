@@ -7,7 +7,7 @@
 ---
 
 ## 目录索引
-- [high_frequency.md](file:///Users/changqi/lesson/vocabulary/high_frequency.md)：**核心黄金语块归档（已启用）** —— 按“状态类 / 居住生活类 / 万能愿望句型 / 运动爱好类 / 饮食喜好类”分类。
+- [high_frequency.md](high_frequency.md)：**核心黄金语块归档（已启用）** —— 按“状态类 / 居住生活类 / 万能愿望句型 / 运动爱好类 / 饮食喜好类”分类。
 
 ## 🔜 待建（等真实语料攒够再建，不预先占位）
 - `idioms_and_phrases.md`：常用短语动词与地道口语句式
