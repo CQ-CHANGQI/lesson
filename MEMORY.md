@@ -6,9 +6,7 @@
 ---
 
 ## 1. 学员核心画像 (Learner Identity & Cognitive Profile)
-- **学员姓名**：常琪
-- **地域背景**：中国山西省吕梁市文水县
-- **毕业背景**：海南师范大学毕业
+- **学员代号**：CQ
 - **起点基础**：
   - 高考英语 98 分（具备潜在语感与潜意识词汇，但初高中未打牢造句体系）。
   - 大学未系统学习，导致严重缺乏语言输出环境与信心。
@@ -37,6 +35,9 @@
    - 绝不提前把动词变形成 `likes`, `drinking` 喂给学员（严禁变相提示）。
    - **出题时一律给纯动词原形（如 `like`, `drink`, `watch`, `live`）**，强制由学员根据句子性质、人称、是否否定，**亲自决定是否加 `-s`、`-ing` 或请出 `does not`**！
    - 同时附带速查表 [00_verb_transformation_cheatsheet.md](file:///Users/changqi/lesson/grammar/00_verb_transformation_cheatsheet.md) 供其核对。
+9. **【自动化工程铁律】每次学习/修改后自动 Git Commit & Push（免 Review）**：
+   - 这是学习过程记录，学员明确要求**无需发起 Review 确认，全自动直接提交并推送到 GitHub**。
+   - Commit message 必须准确、规范、具备可追溯性（如记录攻克了什么句型、语块或维护了什么文件）。
 
 ---
 

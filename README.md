@@ -5,7 +5,7 @@
 ---
 
 ## 📌 项目定位与愿景
-- **学习者**：常琪 (Shanxi Wenshui -> Hainan Normal Univ. -> Lifelong Learner)
+- **学习者**：CQ (Lifelong Learner)
 - **起点基础**：高考英语 98分（具备潜意识词汇与基础语感，大学阶段输入较少，需系统重构体系）
 - **核心理念**：
   1. **刻意输入 + 真实输出 (Comprehensible Input + Real Output)**：拒绝死记硬背，结合语境与实用表达。
