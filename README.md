@@ -18,7 +18,7 @@
 ## 📂 项目目录架构
 
 ```text
-/Users/changqi/lesson/
+lesson/
 ├── MEMORY.md               # ⭐ 跨模型持久化记忆库（任何 AI 必读的第一份文件）
 ├── AGENTS.md               # AI Agent 工作协议（通用入口）
 ├── CLAUDE.md               # Claude Code 入口协议
@@ -32,7 +32,7 @@
 │   └── 01_diagnostic_test.md  # 初始摸底测试（已归档，仅作历史留档）
 ├── vocabulary/             # 个人高频核心词库与高频易错词库
 │   ├── README.md
-│   └── high_frequency.md   # 黄金语块归档
+│   └── high_frequency.md   # 黄金语块归档（顶部含 M2 计数表，为进度百分比唯一数据源）
 ├── grammar/                # 骨架语法精讲（乐高体系）
 │   ├── README.md
 │   ├── 00_verb_transformation_cheatsheet.md   # 动词变形速查卡
@@ -40,10 +40,12 @@
 │   ├── 02_the_secret_of_ing.md                # -ing 变身术
 │   ├── 03_third_person_and_s.md               # 第三人称 -s
 │   ├── 04_negation_and_helper_verbs.md        # 否定与助动词
-│   └── 05_questions_and_inversion.md          # 疑问与倒装
+│   ├── 05_questions_and_inversion.md          # 疑问与倒装
+│   └── 06_time_prepositions_at_on_in.md       # 时间介词 at/on/in（图钉·格子·容器）
 └── daily_logs/             # 每日互动复盘、对话练习与纠错记录
     ├── README.md
-    └── 2026-09-10.md
+    ├── 2026-09-10.md                          # 地基重塑 + 四大句式大满贯 + M2 首战
+    └── 2026-09-30.md                          # 复课：wake up vs get up + 时间介词（⚠️ 事后补录）
 ```
 
 ---

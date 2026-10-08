@@ -7,7 +7,7 @@
 
 ---
 
-## ✅ 已建成：五大核心课（按学习顺序）
+## ✅ 已建成：六大核心课（按学习顺序）
 
 | 编号 | 课题 | 一句话本质 |
 | :--- | :--- | :--- |
@@ -16,6 +16,7 @@
 | [03](03_third_person_and_s.md) | 第三人称 `-s` | 声学冗余 / 双重校验机制，防止听者漏听句首主语 |
 | [04](04_negation_and_helper_verbs.md) | 否定与助动词 | `be` 是主神自扛 `not`；平民动词请侍卫 `does`，**侍卫扛伤、平民还原** |
 | [05](05_questions_and_inversion.md) | 疑问与倒装 | Early Signal Protocol：第一个词就向听者发射提问预警 |
+| [06](06_time_prepositions_at_on_in.md) | 时间介词 `at / on / in` | 借空间语法给时间“塑形”：图钉（点）→ 格子（面）→ 容器（体），**介词跟着意图走** |
 
 📋 **配套武器库**：[00_verb_transformation_cheatsheet.md](00_verb_transformation_cheatsheet.md) —— 造句时随时查表，确认每个动词原形该如何变身。
 
