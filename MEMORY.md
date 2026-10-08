@@ -20,33 +20,20 @@
 
 ---
 
-## 2. 教学最高准则 (Pedagogical Iron Rules for Any LLM)
-1. **绝不采用应试刷题模式**：严禁出长篇阅读题或枯燥选择题，全部采用生活化情境与“乐高积木拼装法”。
-2. **坚持“一山不容二虎”核心语法法则**：
-   - **门派 1（状态门派）**：`主语 + be (am/is/are) + 状态`（如 `I am ready`, `I am busy`, `I am in Shanxi`）。
-   - **门派 2（动作门派）**：`主语 + 动作动词 + 对象`（如 `I live in Shanxi`, `I work in Shanxi`）。严禁出现 `I am like...` 或 `I am work...`！
-   - **进行时变身原理**：动词加 `-ing` 是穿上外套变身成“状态”（`I am working` = 我正处于工作状态中）。
-3. **语块教学（Chunking）**：教整坨实用短语，不教孤立字母拼写。
-4. **包容性正向激励**：学员犯错时，先肯定意图与闪光点，再拆解零件示范地道替换句型，给予及时的正向多巴胺。
-5. **对话结束强制归档**：只要有新句子、新语法点或新打卡，必须同步写入 `daily_logs/` 和更新本文件。
-6. **【学员强制核心要求】语法设计动机溯源（Language Design Rationale）**：
-   - 严禁告知“没有为什么，背下来就行”！
-   - **所有语法规则必须从语言学底层、通信防错协议（如 -s 的双重校验机制）、认知逻辑解释“为什么这样设计”**，学员以此为信服与记忆的根本基石！
-7. **【学员出题挑战偏好】完全打乱积木顺序（Scrambled Lego Blocks）**：
-   - 给出零件时**坚决严禁按正确语序排列**！必须彻底随机打乱，让学员自主识别主谓宾、状态与动作，亲自进行架构组装。
-8. **【学员硬核变形要求】仅提供原版动词（Base Forms Only）**：
-   - 绝不提前把动词变形成 `likes`, `drinking` 喂给学员（严禁变相提示）。
-   - **出题时一律给纯动词原形（如 `like`, `drink`, `watch`, `live`）**，强制由学员根据句子性质、人称、是否否定，**亲自决定是否加 `-s`、`-ing` 或请出 `does not`**！
-   - 同时附带速查表 [00_verb_transformation_cheatsheet.md](grammar/00_verb_transformation_cheatsheet.md) 供其核对。
-9. **【自动化工程铁律】每次学习/修改后自动 Git Commit & Push（免 Review）**：
-   - 这是学习过程记录，学员明确要求**无需发起 Review 确认，全自动直接提交并推送到 GitHub**。
-   - **Commit 信息必须使用准确、清晰的中文描述**（例如：`feat(语块): 新增动词短语 get up` 或 `docs(规范): 约束 commit 信息使用中文`），具备高可读性与可追溯性。
-10. **【仓库工程铁律】内部文件引用一律使用相对路径（严禁绝对路径）**：
-   - 所有 Markdown 内部交叉引用**必须使用相对路径**；**严禁** `file:///Users/...` 或 `/Users/...` 形式的绝对路径。
-   - **设计原因**：绝对路径**绑定单台机器的用户名与目录结构**——仓库一旦克隆到其他电脑（或更换用户名），全部内部跳转立即失效；且在 **GitHub 网页端完全不可点击**。
-   - **写法**：一律以**当前文件所在目录**为基准计算 —— 同目录直接写文件名（`01_sentence_lego.md`）；子目录写 `daily_logs/2026-09-10.md`；上级目录写 `../MEMORY.md`。
-   - **收尾校验**：任何新增、移动或重命名链接的改动，完成前**必须逐条验证链接可解析**。
-   - 📖 完整规范见 [AGENTS.md](AGENTS.md) 规则 5。
+## 2. 教学最高准则 (Pedagogical Iron Rules)
+
+> 📐 **本节已于 2026-10-08 收敛为指针。** 规则正文移入 `.qoder/rules/`（Qoder 原生识别并自动注入上下文），此处不再保留副本，以免两份权威源互相漂移。
+
+| 规则文件 | 覆盖的原铁律 | 一句话摘要 |
+| :--- | :--- | :--- |
+| [teaching-iron-rules.md](.qoder/rules/teaching-iron-rules.md) | 原 1~4、6~8 | 私教身份 / 乐高语块法 / 3~8 分钟微循环 / 严禁刷题 / **溯源讲解 + 乱序积木 + 只给原形** / 正向激励 / 已确立的语法世界观 |
+| [archive-and-commit.md](.qoder/rules/archive-and-commit.md) | 原 5、9 | 会话开始读本文件；结束强制四步（回写三处档案 → 校验链接 → 中文 commit → push，免 Review）；计数纪律；补录纪律 |
+| [file-reference.md](.qoder/rules/file-reference.md) | 原 10 | 内部链接一律相对路径，严禁 `file:///Users/...`；收尾逐条校验 |
+
+**三条最容易被违反、务必牢记**：
+1. **溯源讲解** —— 严禁「没有为什么，背下来就行」，每条语法都要讲透「为什么这样设计」。
+2. **乱序积木** —— 出题零件坚决严禁按正确语序排列，必须彻底打乱。
+3. **只给原形** —— 绝不把 `likes` / `drinking` / `gets` 提前变形喂给学员，是否加 `-s`、`-ing` 或请出 `does not` 由学员亲自判断。
 
 ---
 
@@ -100,9 +87,8 @@
    - 课题 B：**自我介绍与他人介绍**——职业、居住地、爱好（`He works in...` / `She likes...`）。
    - 课题 C：**扩充 M2 高频生活动词语块**——`go to work` / `have lunch` / `come back` / `take a rest` / `go to bed` 等（⚠️ `get up` / `wake up` **已学，勿重复**）。
    - 课题 D：**时间坐标实战**——把 `at / on / in` 用到真实日程上（`I have a meeting on Monday morning.` / `I go to bed at eleven.`）。
-5. 遵循每轮只造 1~2 句、即练即学的微习惯节奏，并严格执行本文件第 2 节第 6、7、8 条出题铁律（**溯源讲解 + 乱序积木 + 只给原形**）。
-6. 📱 若学员在手机端/其他模型对话，提醒其使用 [CROSS_LLM_PROMPT.md](CROSS_LLM_PROMPT.md)（已于 2026-10-08 同步至最新进度）。
-7. 🔒 **会话收尾强制动作**（2026-09-30 曾遗漏，导致档案停更 28 天）：结束前必须完成「三处档案回写（本文件 + `progress_tracker.md` + `daily_logs/`）→ 校验链接 → commit & push」，缺一不可。
+5. 遵循每轮只造 1~2 句、即练即学的微习惯节奏，并严格执行 [teaching-iron-rules.md](.qoder/rules/teaching-iron-rules.md) 的三条出题铁律（**溯源讲解 + 乱序积木 + 只给原形**）。
+6. 🔒 **会话收尾强制动作**（2026-09-30 曾遗漏，导致档案停更 28 天）：结束前必须完成「三处档案回写（本文件 + `progress_tracker.md` + `daily_logs/`）→ 校验链接 → commit & push」，缺一不可。完整协议见 [archive-and-commit.md](.qoder/rules/archive-and-commit.md)。
 
 ---
 
@@ -120,3 +106,6 @@
 | **防再发措施** | 本文件第 4 节新增第 7 条「会话收尾强制动作」 |
 
 > 💡 **顺带收益**：补录时把语块计数从主观描述升级为 [high_frequency.md](vocabulary/high_frequency.md) 顶部的**显式计数表**（唯一数据源），杜绝今后 M2 百分比再次漂移。
+
+> ⚠️ **上表中的 `CROSS_LLM_PROMPT.md` 已于同日（2026-10-08）后续的 Qoder 项目化改造中删除**，同时删除的还有 `CLAUDE.md`、`GEMINI.md`。补录记录本身是历史事实，故保留不改。
+> 取回方式：`git show a7987d7:CROSS_LLM_PROMPT.md`。改造详情见 [daily_logs/2026-10-08.md](daily_logs/2026-10-08.md) 与 [AGENTS.md](AGENTS.md) 的「迁移说明」。

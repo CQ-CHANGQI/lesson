@@ -19,11 +19,13 @@
 
 ```text
 lesson/
-├── MEMORY.md               # ⭐ 跨模型持久化记忆库（任何 AI 必读的第一份文件）
-├── AGENTS.md               # AI Agent 工作协议（通用入口）
-├── CLAUDE.md               # Claude Code 入口协议
-├── GEMINI.md               # Gemini 入口协议
-├── CROSS_LLM_PROMPT.md     # 📱 手机端/网页端一键接力 Prompt（复制即用）
+├── AGENTS.md               # ⭐ AI Agent 入口协议（接入顺序 + 规范索引 + 迁移说明）
+├── .qoder/
+│   └── rules/              # ⭐ 项目规则唯一权威源（Qoder 原生识别，自动注入上下文）
+│       ├── teaching-iron-rules.md   # 教学铁律：身份/节奏/禁刷题/溯源/乱序/只给原形
+│       ├── archive-and-commit.md    # 归档与 Git 协议：强制四步 + 中文提交 + 计数纪律
+│       └── file-reference.md        # 文件引用规范：一律相对路径
+├── MEMORY.md               # ⭐ 教学状态与交接指令（任何 AI 必读的第一份文件）
 ├── README.md               # 项目主页与核心方法论（当前文件）
 ├── learner_profile.md      # 个人学习画像与能力雷达
 ├── study_plan.md           # 分阶段长远学习规划与每日执行规程
@@ -45,7 +47,8 @@ lesson/
 └── daily_logs/             # 每日互动复盘、对话练习与纠错记录
     ├── README.md
     ├── 2026-09-10.md                          # 地基重塑 + 四大句式大满贯 + M2 首战
-    └── 2026-09-30.md                          # 复课：wake up vs get up + 时间介词（⚠️ 事后补录）
+    ├── 2026-09-30.md                          # 复课：wake up vs get up + 时间介词（⚠️ 事后补录）
+    └── 2026-10-08.md                          # 非教学时段：档案补录 + Qoder 项目化改造
 ```
 
 ---
@@ -59,8 +62,13 @@ lesson/
 ---
 
 ## 📖 新人/新 AI 接入顺序
-1. 先读 `MEMORY.md`（当前进度与教学铁律）
-2. 再读 `learner_profile.md`（学员画像与能力雷达）
-3. 需要出题时，严格遵循 `MEMORY.md` 第 2 节的全部准则（**溯源讲解 + 乱序积木 + 只给原形**）
-4. 会话结束：更新 `MEMORY.md` + `progress_tracker.md` + `daily_logs/YYYY-MM-DD.md`，随后**自动 commit & push**（中文提交信息）
-5. **文件引用一律使用相对路径**，严禁 `file:///Users/...` 绝对路径（详见 `AGENTS.md` 规则 5）
+
+> 完整协议见 [AGENTS.md](AGENTS.md)。以下为速查。
+
+1. 先读 [MEMORY.md](MEMORY.md) —— 重点看第 3 节（当前进度 / 已掌握语块）与第 4 节（交接指令 / **未完成现场**）
+2. 再读 [learner_profile.md](learner_profile.md) —— 学员画像与能力雷达
+3. **规则以 [.qoder/rules/](.qoder/rules/) 为唯一权威源**，Qoder 会自动注入；其他工具请手动读取这三个文件：
+   - [teaching-iron-rules.md](.qoder/rules/teaching-iron-rules.md) —— 出题必须遵守**溯源讲解 + 乱序积木 + 只给原形**
+   - [archive-and-commit.md](.qoder/rules/archive-and-commit.md) —— 会话结束强制四步：回写 `MEMORY.md` + `progress_tracker.md` + `daily_logs/YYYY-MM-DD.md` → 校验链接 → 中文 commit → push（免 Review）
+   - [file-reference.md](.qoder/rules/file-reference.md) —— 内部链接一律**相对路径**，严禁 `file:///Users/...`
+4. 若 `MEMORY.md` 第 4 节记录了「未完成现场」，**开场第一件事就是接续它**，不要另起新题
